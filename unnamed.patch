@@ -1,0 +1,19 @@
+Index: LineasDeFacturas/Interfaces/LinesFacturesRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LineasDeFacturas/Interfaces/LinesFacturesRepository.java b/LineasDeFacturas/Interfaces/LinesFacturesRepository.java
+new file mode 100644
+--- /dev/null	(date 1619620551771)
++++ b/LineasDeFacturas/Interfaces/LinesFacturesRepository.java	(date 1619620551771)
+@@ -0,0 +1,9 @@
++package com.example.demoJPAMany.Tablas.LineasDeFacturas.Interfaces;
++
++import com.example.demoJPAMany.Tablas.Clientes.Objects.Clients;
++import com.example.demoJPAMany.Tablas.LineasDeFacturas.Objects.LinesFactures;
++import org.springframework.data.jpa.repository.JpaRepository;
++
++public interface LinesFacturesRepository extends JpaRepository<LinesFactures, Integer> {
++
++}
